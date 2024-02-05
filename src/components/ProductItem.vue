@@ -4,7 +4,7 @@
         <h3 class="product-flex__item-name">{{ product.name }}</h3>
         <div class="product-flex__item-description">{{ product.description }}</div>
         <p class="product-flex__item-price">{{ formatPriceForDisplay(product.price) }} руб.</p>
-        <img class="product-flex__item-delete" src="/delete.svg" alt="Delete Icon" @click="removeProduct(index)" />
+        <img class="product-flex__item-delete" src="/dist/delete.svg" alt="Delete Icon" @click="removeProduct(index)" />
     </div>
 </template>
   
